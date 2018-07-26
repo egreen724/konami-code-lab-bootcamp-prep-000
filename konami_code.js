@@ -27,7 +27,7 @@ function whenKeyDown(e) {
   }
 }
 
-document.body.addEventListener('keydown', whenKeyDown)
+document.addEventListener('keydown', whenKeyDown())
 
 function init() {
   
