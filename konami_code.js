@@ -27,6 +27,8 @@ function whenKeyDown(e) {
   }
 }
 
+document.addEventListener('keydown', whenKeyDown)
+
 function init() {
   
 }
